@@ -1,0 +1,47 @@
+<section>
+  <h1>Products List</h1>
+  <div>
+    <article>
+      <h2>Products without price</h2>
+      <ul>
+        @for (product of products; track product.id) {
+
+          @if (!product.price) {
+            <li [ngStyle]="{'background-color': product.onSale ? 'green' : 'grey'}">
+              {{ product.name }}
+            </li>
+          }
+
+        }
+      </ul>
+    </article>
+    <article>
+      <h2>Products On Sale</h2>
+      <ul>
+        @for (product of products; track product.id) {
+          @if (product.onSale) {
+            <li [ngStyle]="{'background-color': product.onSale ? 'green' : 'grey'}">
+              {{ product.name }}
+            </li>
+          }
+
+        }
+      </ul>
+    </article>
+    <article>
+      <h2>Other Products</h2>
+      <ul>
+        @for (product of products; track product.id) {
+          @if (!product.onSale && product.price) {
+            <li [ngStyle]="{'background-color': product.onSale ? 'green' : 'grey'}">
+
+              {{ product.name }} {{ product.price }}$
+            </li>
+          }
+
+        }
+      </ul>
+    </article>
+  </div>
+</section>
+

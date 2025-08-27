@@ -1,0 +1,18 @@
+<section>
+  <h1>To Do List</h1>
+  <input type="text" placeholder="What needs to be done?" (change)="onInputChange($event)" [ngModel]="newTask">
+  <button (click)="addToDo()">Add Task</button>
+  <article>
+    <ul>
+      @for (todo of toDoList; track $index) {
+        <li>
+          {{ todo }}
+        </li>
+      } @empty {
+        <li>
+          Nothing to do
+        </li>
+      }
+    </ul>
+  </article>
+</section>

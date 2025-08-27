@@ -1,0 +1,15 @@
+li {
+  margin-bottom: 1rem;
+}
+
+section {
+  text-align: center;
+}
+
+article {
+  place-items: center;
+}
+
+button {
+  margin-left: 0.5rem;
+}

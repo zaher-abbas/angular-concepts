@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+article {
+  padding: 1rem;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  width: 30%;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,28 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+  place-items: center;
+  width: 50%;
+}
+
+p {
+  padding: 1rem;
+  background-color: white;
+  width: 25%;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.5rem;
+  width: 100px;
+  font-weight: bold;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

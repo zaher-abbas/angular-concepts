@@ -1,0 +1,11 @@
+<main>
+  <figure>
+    <img [src]="user.image" alt="">
+    <figcaption>
+      <h1>Hello {{ user.name }}</h1>
+    </figcaption>
+    <h4>Age: {{ user.age }}</h4>
+    <h4 id="citation">Citation: <span>{{ user.citation }}</span></h4>
+    <input type="text" [(ngModel)]="user.citation">
+  </figure>
+</main>
