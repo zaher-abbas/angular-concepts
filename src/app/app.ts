@@ -8,7 +8,7 @@ import {ToDo} from './to-do/to-do';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Calculator, Card, Catalogue, Button, ToDo],
+  imports: [Calculator, Card, Catalogue, Button, ToDo, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
