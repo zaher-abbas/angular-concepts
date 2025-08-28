@@ -72,7 +72,7 @@ npm install -g @angular/cli@20
 
 ```shell script
 git clone <url-du-repository>
-cd angular-demo
+cd angular-concepts
 ```
 
 ### 2. Installer les dépendances
