@@ -5,10 +5,11 @@ import {Card} from './card/card';
 import {Catalogue} from './catalogue/catalogue';
 import {Button} from './button/button';
 import {ToDo} from './to-do/to-do';
+import {LoginForm} from './login-form/login-form';
 
 @Component({
   selector: 'app-root',
-  imports: [Calculator, Card, Catalogue, Button, ToDo, RouterOutlet],
+  imports: [Calculator, Card, Catalogue, Button, ToDo, RouterOutlet, LoginForm],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
