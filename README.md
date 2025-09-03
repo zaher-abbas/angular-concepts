@@ -56,6 +56,21 @@ Ce projet couvre les concepts essentiels d'Angular :
 - 📡 Gestion d'événements
 - 🔄 Liaison bidirectionnelle
 
+### 🃏 Service Pokemon avec HTTPClient
+
+Démonstration de l'utilisation du **HTTPClient** d'Angular pour consommer une API REST externe. Ce composant récupère une liste de cartes Pokemon depuis l'API officielle Pokemon TCG.
+
+#### 📡 Fonctionnalités
+
+- ✨ **Service injectable** avec `@Injectable({ providedIn: 'root' })`
+- 🌐 **Requêtes HTTP GET** vers une API externe
+- 🔄 **Observables RxJS** pour la gestion asynchrone
+- 📊 **Transformation de données** avec l'opérateur `map`
+- 🎯 **Typage TypeScript** avec des interfaces personnalisées
+- 🖼️ **Affichage dynamique** des cartes Pokemon avec images
+
+#### 🏗️ Architecture technique
+
 ## 📋 Prérequis
 
 - **Node.js** 18+ (LTS recommandé)

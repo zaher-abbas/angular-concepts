@@ -6,10 +6,11 @@ import {Catalogue} from './catalogue/catalogue';
 import {Button} from './button/button';
 import {ToDo} from './to-do/to-do';
 import {LoginForm} from './login-form/login-form';
+import {PokemonC} from './pokemon-c/pokemon-c';
 
 @Component({
   selector: 'app-root',
-  imports: [Calculator, Card, Catalogue, Button, ToDo, RouterOutlet, LoginForm],
+  imports: [Calculator, Card, Catalogue, Button, ToDo, RouterOutlet, LoginForm, PokemonC],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

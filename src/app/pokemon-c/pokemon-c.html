@@ -1,0 +1,10 @@
+<section>
+  @for (pokemon of pokemons; track pokemon.id) {
+    <figure>
+      <figcaption>
+        <h1>{{ pokemon.name }}</h1>
+      </figcaption>
+      <img [src]="pokemon.images.large" alt="">
+    </figure>
+  }
+</section>
