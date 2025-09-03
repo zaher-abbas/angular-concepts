@@ -9,6 +9,7 @@ import {Pokemon} from '../Interface/Pokemon';
   styleUrl: './pokemon-c.css'
 })
 export class PokemonC {
+  loading: boolean = true;
   pokemons!: Pokemon[];
 
   constructor(private pokemonService: PokemonService) {
@@ -18,7 +19,8 @@ export class PokemonC {
     this.pokemonService.getPokemons().subscribe({
       next: (pokemons: Pokemon[]) => {
         this.pokemons = pokemons;
-        console.log(pokemons);
+        this.loading = false;
+
       },
       error: (err) => {
         console.error('Erreur lors du chargement des utilisateurs', err);

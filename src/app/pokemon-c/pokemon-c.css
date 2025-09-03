@@ -1,4 +1,4 @@
-section {
+article {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -10,9 +10,34 @@ figure {
   border: 1px solid black;
   padding: 1.5rem;
   border-radius: 1rem;
-  background-color: grey;
+  background-color: #a4a4a4;
+}
+
+figcaption {
+  display: flex;
+  justify-content: space-between;
 }
 
 figure img {
   width: 100%;
 }
+
+span {
+  font-size: smaller;
+}
+
+#plarge {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#psmall {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+h1, h4 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+

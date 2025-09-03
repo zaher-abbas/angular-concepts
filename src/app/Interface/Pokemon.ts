@@ -2,6 +2,7 @@ export interface Pokemon {
   id: string;
   name: string;
   hp?: string; // Optionnel car pas tous les Pokemon ont des HP
+  level: string;
   images: {
     small: string;
     large: string;
