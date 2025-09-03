@@ -23,6 +23,7 @@ export class PokemonC {
 
       },
       error: (err) => {
+        this.loading = false;
         console.error('Erreur lors du chargement des utilisateurs', err);
       }
     })
