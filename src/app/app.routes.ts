@@ -1,7 +1,7 @@
 import {Routes} from '@angular/router';
-import {Search} from './search/search';
-import {Student} from './student/student';
-import {Home} from './home/home';
+import {Search} from './Components/search/search';
+import {Student} from './Components/student/student';
+import {Home} from './Components/home/home';
 
 export const routes: Routes = [
 

@@ -1,0 +1,22 @@
+<h1>CRUD with HTTPClient and <a href="https://jsonplaceholder.typicode.com/posts">JSON Placeholder Faker API</a></h1>
+<section class="container">
+  <form (ngSubmit)="onSubmit()">
+    <fieldset>
+      <legend class="col-form-label text-dark mb-2"><h4>Create Post</h4></legend>
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" name="title" [(ngModel)]="title">
+      </div>
+      <div class="mb-3">
+        <label for="body" class="form-label">Content</label>
+        <textarea class="form-control" id="body" rows="3" cols="10" name="body" [(ngModel)]="body"></textarea>
+      </div>
+      <div id="button">
+        <button type="submit" class="btn btn-success">Create</button>
+      </div>
+    </fieldset>
+  </form>
+  <div id="button">
+    <button class="btn btn-danger" (click)="deletePost()">Delete Post 1</button>
+  </div>
+</section>

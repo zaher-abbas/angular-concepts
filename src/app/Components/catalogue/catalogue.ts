@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Product} from '../Model/Product';
+import {Product} from '../../Interface/Product';
 import {NgStyle} from '@angular/common';
 
 @Component({

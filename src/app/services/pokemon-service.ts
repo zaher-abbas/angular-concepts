@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {map, Observable} from 'rxjs';
-import {Pokemon} from './Interface/Pokemon';
-import {ApiResponse} from './Interface/ApiResponse';
+import {Pokemon} from '../Interface/Pokemon';
+import {ApiResponse} from '../Interface/ApiResponse';
 
 @Injectable({
   providedIn: 'root'

@@ -4,6 +4,11 @@ main {
   align-items: center;
 }
 
+h1 {
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
 section {
   text-align: center;
   background-color: black;
@@ -13,7 +18,7 @@ section {
 }
 
 p {
-  padding: 1rem;
+  padding: 0.75rem;
   background-color: white;
   width: 25%;
   font-weight: bold;
